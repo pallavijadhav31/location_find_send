@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Language">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E80F070A"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/prag" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Welcome!!!"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:text="You can use Udaan in multiple language"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Choose Language"
+        android:paddingLeft="20dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:src="@drawable/eng" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:src="@drawable/hindi" />
+    </LinearLayout>
+</LinearLayout>

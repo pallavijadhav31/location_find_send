@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Finance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+
+            android:background="#E80F070A"
+            app:srcCompat="@drawable/p1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:text="वित्तीय सेवाओं की आवश्यकता"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/apply"
+        android:drawableLeft="@drawable/apply"
+        android:gravity="center"
+        android:text="ऋण लागू करें"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/ad"
+        android:drawableLeft="@drawable/ad"
+        android:paddingTop="10dp"
+        android:text="वित्तीय सलाहकार"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingTop="10dp"
+        android:drawableStart="@drawable/g1"
+        android:drawableLeft="@drawable/g1"
+        android:text="सरकारी योजना"
+        android:textColor="#000000" />
+</LinearLayout>

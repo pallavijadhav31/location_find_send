@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Homeh">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:background="#E80F070A"
+        android:src="@drawable/prag" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage1"
+            android:shadowColor="#F8030303"
+            android:text="वित्त सेवाएँ"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage"
+            android:shadowColor="#000000"
+            android:text="स्वास्थ्य देखभाल"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage3"
+            android:shadowColor="#000000"
+            android:text="गैर सरकारी संगठन"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage4"
+            android:text="हमारे साथ कार्य करें"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage5"
+            android:text="स्थान"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newcall"
+            android:text="महिला हेल्पलाइन"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage7"
+            android:text="शिकायत"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/newimage8"
+            android:text="दान करना"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

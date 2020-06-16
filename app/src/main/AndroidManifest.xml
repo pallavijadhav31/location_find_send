@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.cipher">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".webmedicalh"></activity>
+        <activity android:name=".medicallisth" />
+        <activity android:name=".webm" />
+        <activity android:name=".webh" />
+        <activity android:name=".web" />
+        <activity android:name=".Medicallist" />
+        <activity android:name=".financelisth" />
+        <activity android:name=".financelist" />
+        <activity
+            android:name=".gps"/>
+        <activity android:name=".complainh" />
+        <activity android:name=".complain" />
+        <activity android:name=".helthcareh" />
+        <activity android:name=".Financeh" />
+        <activity android:name=".Homeh" />
+        <activity android:name=".Healthcare" />
+        <activity android:name=".Finance" />
+        <activity android:name=".Home" />
+        <activity android:name=".Registerh" />
+        <activity android:name=".Register" />
+        <activity android:name=".loginh" />
+        <activity android:name=".login" />
+        <activity android:name=".Language" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

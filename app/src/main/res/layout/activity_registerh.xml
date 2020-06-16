@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E80F070A"
+    android:orientation="vertical"
+    tools:context=".Registerh">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/prag" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:gravity="center|start"
+        android:hint="
+उपयोगकर्ता नाम" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="#FA3A2A"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:gravity="center|start"
+        android:hint="
+ईमेल आईडी" />
+
+    <EditText
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/pass"
+        android:gravity="center|start"
+        android:hint="
+कुंजिका" />
+
+    <EditText
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/pass"
+        android:gravity="center|start"
+        android:hint="फिर से पासवर्ड" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#00BCD4"
+        android:text="रजिस्टर करें" />
+
+
+</LinearLayout>

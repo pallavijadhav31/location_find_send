@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Healthcare">
+    <LinearLayout
+        android:background="#E80F070A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/p1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/r1"
+        android:drawableLeft="@drawable/r1"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:paddingTop="10dp"
+        android:text="नियमित जांच" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/r2"
+        android:drawableLeft="@drawable/r2"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:paddingTop="10dp"
+        android:text="पास में अस्पताल" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/r3"
+        android:drawableLeft="@drawable/r3"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:paddingTop="10dp"
+        android:text="रोगी वाहन" />
+
+</LinearLayout>
